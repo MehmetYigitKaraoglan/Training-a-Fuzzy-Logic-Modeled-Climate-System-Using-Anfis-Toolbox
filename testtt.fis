@@ -1,0 +1,97 @@
+[System]
+Name='teztest'
+Type='sugeno'
+Version=2.0
+NumInputs=3
+NumOutputs=1
+NumRules=27
+AndMethod='prod'
+OrMethod='probor'
+ImpMethod='prod'
+AggMethod='sum'
+DefuzzMethod='wtaver'
+
+[Input1]
+Name='input1'
+Range=[3.6 29]
+NumMFs=3
+MF1='in1mf1':'trimf',[-9.1 3.6 16.3]
+MF2='in1mf2':'trimf',[3.6 16.3001286183343 28.97396306475]
+MF3='in1mf3':'trimf',[16.3015956445626 29.0001259758896 41.6999999999447]
+
+[Input2]
+Name='input2'
+Range=[22 34]
+NumMFs=3
+MF1='in2mf1':'trimf',[15.999999976404 22.0044515000941 28.3639293691791]
+MF2='in2mf2':'trimf',[21.9968364820082 27.987286553018 34.0231977935888]
+MF3='in2mf3':'trimf',[28.0659587758885 33.9746526450182 40.0000036965006]
+
+[Input3]
+Name='input3'
+Range=[11 23]
+NumMFs=3
+MF1='in3mf1':'trimf',[4.99999962117993 11.0170783631857 17.0974504357764]
+MF2='in3mf2':'trimf',[10.9837376420027 17.0092372471275 23.006945971544]
+MF3='in3mf3':'trimf',[17.1433884557075 22.9912785752167 28.9999999141481]
+
+[Output1]
+Name='output'
+Range=[0 1]
+NumMFs=27
+MF1='out1mf1':'constant',[0]
+MF2='out1mf2':'constant',[0]
+MF3='out1mf3':'constant',[0]
+MF4='out1mf4':'constant',[0]
+MF5='out1mf5':'constant',[0]
+MF6='out1mf6':'constant',[0]
+MF7='out1mf7':'constant',[0]
+MF8='out1mf8':'constant',[0]
+MF9='out1mf9':'constant',[0]
+MF10='out1mf10':'constant',[-44.1777384116091]
+MF11='out1mf11':'constant',[82.5885900878006]
+MF12='out1mf12':'constant',[-4.14268817485233]
+MF13='out1mf13':'constant',[25.3928014088622]
+MF14='out1mf14':'constant',[-6.61619902202537]
+MF15='out1mf15':'constant',[-82.8541430694946]
+MF16='out1mf16':'constant',[9.10301449518031]
+MF17='out1mf17':'constant',[8.53621565274576]
+MF18='out1mf18':'constant',[38.448656916177]
+MF19='out1mf19':'constant',[-68.2427015276706]
+MF20='out1mf20':'constant',[-28.878031935551]
+MF21='out1mf21':'constant',[1.4702006799106]
+MF22='out1mf22':'constant',[-1.72220831904471]
+MF23='out1mf23':'constant',[4.57322158379467]
+MF24='out1mf24':'constant',[29.8416212330841]
+MF25='out1mf25':'constant',[-58.2690222057418]
+MF26='out1mf26':'constant',[-4.50416281419834]
+MF27='out1mf27':'constant',[-4.27844955994678]
+
+[Rules]
+1 1 1, 1 (1) : 1
+1 1 2, 2 (1) : 1
+1 1 3, 3 (1) : 1
+1 2 1, 4 (1) : 1
+1 2 2, 5 (1) : 1
+1 2 3, 6 (1) : 1
+1 3 1, 7 (1) : 1
+1 3 2, 8 (1) : 1
+1 3 3, 9 (1) : 1
+2 1 1, 10 (1) : 1
+2 1 2, 11 (1) : 1
+2 1 3, 12 (1) : 1
+2 2 1, 13 (1) : 1
+2 2 2, 14 (1) : 1
+2 2 3, 15 (1) : 1
+2 3 1, 16 (1) : 1
+2 3 2, 17 (1) : 1
+2 3 3, 18 (1) : 1
+3 1 1, 19 (1) : 1
+3 1 2, 20 (1) : 1
+3 1 3, 21 (1) : 1
+3 2 1, 22 (1) : 1
+3 2 2, 23 (1) : 1
+3 2 3, 24 (1) : 1
+3 3 1, 25 (1) : 1
+3 3 2, 26 (1) : 1
+3 3 3, 27 (1) : 1
